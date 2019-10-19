@@ -16,7 +16,7 @@ import org.eclipse.persistence.sessions.Session;
  */
 public abstract class PersistenceUtil {
 
-    private static final String PERSISTENCE_UNIT_NAME = "LPWSD";
+    private static final String PERSISTENCE_UNIT_NAME = "LPWSD.0PU";
     private static EntityManagerFactory FACTORY;
     private static ThreadLocal<EntityManager> MANAGER = new ThreadLocal<EntityManager>();
     private static Session session;

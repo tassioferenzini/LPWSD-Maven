@@ -6,7 +6,7 @@
 package br.cesjf.lpwsd.dao;
 
 import br.cesjf.lpwsd.db.PersistenceUtil;
-import br.cesjf.lpwsd.maven.model.TbAssunto;
+import br.cesjf.lpwsd.model.TbAssunto;
 import java.io.Serializable;
 import java.util.List;
 import javax.persistence.EntityManager;

@@ -2,13 +2,13 @@
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
   <persistence-unit name="LPWSD.0PU" transaction-type="RESOURCE_LOCAL">
     <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
-    <class>br.cesjf.lpwsd.maven.model.TbUsuario</class>
-    <class>br.cesjf.lpwsd.maven.model.TbLivro</class>
-    <class>br.cesjf.lpwsd.maven.model.TbAssunto</class>
-    <class>br.cesjf.lpwsd.maven.model.TbAutores</class>
-    <class>br.cesjf.lpwsd.maven.model.TbEditora</class>
-    <class>br.cesjf.lpwsd.maven.model.TbExemplar</class>
-    <class>br.cesjf.lpwsd.maven.model.TbEmprestimo</class>
+    <class>br.cesjf.lpwsd.model.TbEmprestimo</class>
+    <class>br.cesjf.lpwsd.model.TbEditora</class>
+    <class>br.cesjf.lpwsd.model.TbAutores</class>
+    <class>br.cesjf.lpwsd.model.TbUsuario</class>
+    <class>br.cesjf.lpwsd.model.TbExemplar</class>
+    <class>br.cesjf.lpwsd.model.TbAssunto</class>
+    <class>br.cesjf.lpwsd.model.TbLivro</class>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/LPWSD?zeroDateTimeBehavior=convertToNull"/>
